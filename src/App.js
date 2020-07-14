@@ -12,10 +12,12 @@ import SearchBar from "./components/SearchBar/SearchBar";
 
 // Import the dummyData
 import "./App.css";
+import Data from "./dummy-data";
 
 const App = () => {
 	// Create a state called 'posts' to hold the list of posts, initializing to dummyData.
 	// To make the search bar work (which is stretch) we'd need another state to hold the search term.
+	const [posts, search] = useState(Data);
 
 	const likePost = (postId) => {
 		// This function is passed into nested components using props, to allow them to update application state.
