@@ -3,7 +3,7 @@ const dummyData = [
 		id: 1,
 		username: "philzcoffee",
 		thumbnailUrl:
-			"https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg",
+			"http://www.berkeleyside.com/wp-content/uploads/2014/07/559436_10150737192872745_1222087041_n.jpg",
 		imageUrl:
 			"https://images.unsplash.com/photo-1477763858572-cda7deaa9bc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1876&q=80",
 		likes: 400,
@@ -85,6 +85,37 @@ const dummyData = [
 				id: 79,
 				username: "NickM",
 				text: "Damnnnnnnn son!",
+			},
+		],
+	},
+
+	{
+		id: 3,
+		username: "ichangealot",
+		thumbnailUrl: "https://thispersondoesnotexist.com/image?1594769538485",
+		imageUrl: "https://picsum.photos/500",
+		likes: 420,
+		timestamp: "July 14th 2020, 04:12:09 pm",
+		comments: [
+			{
+				id: 96,
+				username: "ichangealot",
+				text: "Hey this phot changes!",
+			},
+			{
+				id: 97,
+				username: "xtianb",
+				text: "Omg that awesome! How?",
+			},
+			{
+				id: 98,
+				username: "EmilyG",
+				text: "That's a 3 for me!!",
+			},
+			{
+				id: 99,
+				username: "AustenA",
+				text: "Thats so cool!!",
 			},
 		],
 	},
