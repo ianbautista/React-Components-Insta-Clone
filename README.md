@@ -43,11 +43,11 @@ The completion of these questions is mandatory for MVP. However, passing the qui
 
 ### Task 3: Stretch Goals
 
-- [ ] Create more dummy data in the dummy-data.js file and add search functionality to the search bar. One way to do this is with a filter method.
+- [x] Create more dummy data in the dummy-data.js file and add search functionality to the search bar. One way to do this is with a filter method.
 - [ ] Implement the ability to add comments to a post using an input.
-- [ ] Finish styling all of the application and get your instagram clone to closely resemble the given design spec.
+- [x] Finish styling all of the application and get your instagram clone to closely resemble the given design spec.
 
 ## Submission Format
 
-- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's Repo). **Please don't merge your own pull request**
-- [ ] Fill out your module retrospective form [here](https://forms.lambdaschool.com/module-retrospective) with a link to your TL
+- [x] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's Repo). **Please don't merge your own pull request**
+- [x] Fill out your module retrospective form [here](https://forms.lambdaschool.com/module-retrospective) with a link to your TL

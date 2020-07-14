@@ -18,8 +18,10 @@ const App = () => {
 	// Create a state called 'posts' to hold the list of posts, initializing to dummyData.
 	// To make the search bar work (which is stretch) we'd need another state to hold the search term.
 	const [posts, setPosts] = useState(Data);
-	const [search, setSearch] = useState(Data);
-
+	const [search, setSearch] = useState("");
+	const filteredPost = posts.filter((post) => {
+		return post.username.toLowerCase().includes(search.toLowerCase());
+	});
 	const likePost = (postId) => {
 		// This function is passed into nested components using props, to allow them to update application state.
 		// It takes a post id as its only argument. The idea is to increase the 'likes' count of the post with the given `id`.
@@ -42,8 +44,8 @@ const App = () => {
 	return (
 		<div className="App">
 			{/* Add SearchBar and Posts here to render them */}
-			<SearchBar setSearch={setSearch} />
-			<Posts posts={posts} likePost={likePost} search={search} />
+			<SearchBar search={(e) => setSearch(e.target.value)} />
+			<Posts posts={filteredPost} likePost={likePost} />
 			{/* Check the implementation of each component, to see what props they require, if any! */}
 		</div>
 	);
