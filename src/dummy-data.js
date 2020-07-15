@@ -91,21 +91,21 @@ const dummyData = [
 
 	{
 		id: 3,
-		username: "ichangealot",
-		thumbnailUrl: "https://thispersondoesnotexist.com/image?1594769538485",
-		imageUrl: "https://picsum.photos/500",
+		username: "randomPerson",
+		thumbnailUrl: "https://thispersondoesnotexist.com/image",
+		imageUrl: "https://picsum.photos/510",
 		likes: 420,
 		timestamp: "July 14th 2020, 04:12:09 pm",
 		comments: [
 			{
 				id: 96,
-				username: "ichangealot",
-				text: "Hey this phot changes!",
+				username: "xtianb",
+				text: "Hey this photo changes!",
 			},
 			{
 				id: 97,
-				username: "xtianb",
-				text: "Omg that awesome! How?",
+				username: "uniloki",
+				text: "Omg that's awesome! How?",
 			},
 			{
 				id: 98,
