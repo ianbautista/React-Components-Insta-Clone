@@ -90,7 +90,7 @@ const dummyData = [
 	},
 
 	{
-		id: 3,
+		id: 4,
 		username: "randomPerson",
 		thumbnailUrl: "https://thispersondoesnotexist.com/image",
 		imageUrl: "https://picsum.photos/510",
@@ -110,7 +110,7 @@ const dummyData = [
 			{
 				id: 98,
 				username: "EmilyG",
-				text: "That's a 3 for me!!",
+				text: "That's a 3 for me!!!",
 			},
 			{
 				id: 99,
